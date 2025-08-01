@@ -13,7 +13,10 @@ const ExploreSection = () => {
   useEffect(() => {
     const fetchListings = async () => {
       try {
-        const res = await fetch("http://localhost:3002/allListings");
+        const res = await fetch(
+          `${import.meta.env.VITE_BACKEND_URL}/allListings`
+        );
+
         const data = await res.json();
         setListings(data);
       } catch (err) {
