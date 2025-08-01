@@ -39,3 +39,7 @@ app.get("/allListings", async (req, res) => {
     res.status(500).send("Error fetching listings");
   }
 });
+
+app.get("/", (req, res) => {
+  res.send("✅ Visra Backend is Running!");
+});
