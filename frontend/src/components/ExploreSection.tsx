@@ -54,7 +54,7 @@ const ExploreSection = () => {
             type="text"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            placeholder="Search destinations or tags..."
+            placeholder="Search tags..."
             className="w-full p-3 rounded-md border border-border bg-muted text-foreground shadow-md focus:outline-none focus:ring-2 focus:ring-primary"
           />
         </div>
