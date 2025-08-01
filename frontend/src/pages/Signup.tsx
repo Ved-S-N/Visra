@@ -1,6 +1,5 @@
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { useState } from "react";
-import { Link } from "react-router-dom";
 
 const Signup = () => {
   const navigate = useNavigate();
@@ -8,9 +7,9 @@ const Signup = () => {
 
   const handleSignup = (e: React.FormEvent) => {
     e.preventDefault();
-    // Fake signup logic
-    alert(`Signed up with: ${email}`);
-    navigate("/"); // Redirect to homepage after signup
+    // Simulate account creation
+    localStorage.setItem("isSignedUp", "true"); // flag for showing message on login page
+    navigate("/login");
   };
 
   return (

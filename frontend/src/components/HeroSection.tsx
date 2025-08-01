@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import TextRevealAnimation from "./TextRevealAnimation";
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
@@ -29,19 +30,19 @@ const HeroSection = () => {
 
         <TextRevealAnimation delay={600}>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button
-              size="lg"
-              className="bg-gradient-primary hover:shadow-glow transition-all duration-300 interactive"
+            <Link
+              to="/signup"
+              className="inline-block bg-gradient-primary text-primary-foreground px-8 py-4 mt-5 rounded-lg text-lg font-semibold hover:shadow-glow transition-all duration-300 interactive"
             >
               Register Now
-            </Button>
-            <Button
-              variant="outline"
-              size="lg"
-              className="border-primary text-primary hover:bg-primary hover:text-primary-foreground interactive"
+            </Link>
+
+            <Link
+              to="/"
+              className="inline-block border border-yellow-400 text-yellow-400 px-8 py-4 mt-5 rounded-lg text-lg font-semibold bg-transparent hover:bg-yellow-400 hover:text-black transition-all duration-300 interactive"
             >
               Learn More
-            </Button>
+            </Link>
           </div>
         </TextRevealAnimation>
       </div>

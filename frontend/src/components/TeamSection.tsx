@@ -35,7 +35,7 @@ const TeamSection = () => {
       bio: "Cloud infrastructure and deployment specialist",
     },
     {
-      name: "Ashmit",
+      name: "Ashmit Gajwe",
       role: "QA Engineer",
       photo: "/images/ashmit.jpg",
       bio: "Quality assurance and testing expert",
