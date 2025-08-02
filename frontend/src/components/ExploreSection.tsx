@@ -131,9 +131,7 @@ const ExploreSection = () => {
             <a href="#team" className="hover:text-primary transition">
               Team
             </a>
-            <a href="#contact" className="hover:text-primary transition">
-              Contact
-            </a>
+
             <a
               href="https://github.com/Ved-S-N/Visra"
               target="_blank"

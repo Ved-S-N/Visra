@@ -105,6 +105,9 @@ const InfiniteMarquee = () => {
       <div className="text-center mt-8 text-muted-foreground">
         Click any image to {isPaused ? "resume" : "pause"} the gallery
       </div>
+      <div className="text-center mt-8 text-muted-foreground">
+        Login the explore destination
+      </div>
     </div>
   );
 };

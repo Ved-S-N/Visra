@@ -1,4 +1,3 @@
-// models/ListingsModel.js
 const mongoose = require("mongoose");
 const ListingsSchema = require("../schemas/ListingsSchema");
 
